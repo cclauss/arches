@@ -47,7 +47,7 @@ function install_yarn {
   wget --quiet -O - https://deb.nodesource.com/setup_10.x | sudo -E bash -
   sudo apt-get update
   sudo apt-get install -y nodejs
-  sudo npm install -g yarn
+  npm install -g yarn
 }
 
 function install_elasticsearch {
